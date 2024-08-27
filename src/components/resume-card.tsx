@@ -105,7 +105,7 @@ export const ResumeCard = ({
               <p dangerouslySetInnerHTML={{__html: description}}></p>
             </motion.div>
           )}
-          {contributions && (
+          {(contributions && contributions !== '') && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{

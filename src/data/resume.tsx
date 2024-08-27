@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Tan Nguyen Le",
@@ -157,6 +157,7 @@ export const DATA = {
       description:`
         - Developed web applications using ASP.NET MVC, C#, and jQuery. <br/>
         - Gathered client requirements and translated them into technical solutions.`,
+      contributions: ''
     },
     {
       company: "TMA Solutions",
@@ -170,6 +171,7 @@ export const DATA = {
       description:
        ` - Developed web applications using ASP.NET and MS SQL, focusing on performance and scalability. <br/
          - Assisted in the design and development of user interfaces.`,
+      contributions: ''
     },
   ],
   education: [
