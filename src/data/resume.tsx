@@ -218,7 +218,7 @@ export const DATA = {
         "Typescript",
         "ReactNative",
         "PostgreSQL",
-        "DybamoDB",
+        "DynamoDB",
         "AWS",
         "GraphQL",
         "TailwindCSS",
@@ -244,7 +244,7 @@ export const DATA = {
     {
       title: "AHM (Inlight)",
       href: "https://ahm.com.au/health-insurance/join",
-      dates: "May 2023 to Dec 2023",
+      dates: "May 2023 to Jan 2024",
       active: true,
       description:
         `Built and maintained the UI with **React.js** and the back end with **Express.js**. Integrated the **Civica Ensure** system for data storage and utilized **Next.js** for the marketing website, sourcing content from **Sanity headless CMS**.`,
