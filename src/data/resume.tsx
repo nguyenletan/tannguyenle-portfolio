@@ -8,7 +8,7 @@ export const DATA = {
   location: "Melbourne, VIC, AU",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Hey Everyone, my name is Tan Nguyen LE! I develop awesome WebApps based on ReactJS, NextJs and Pure HTML+CSS+JS. I also know NestJs, PrismaJs, VueJS, Angular, GatsbyJs, TailwindCss, JavaScript, Typescript, Nodejs, Apollo/GraphQL, StyledComponents, Bootstrap.",
+    "Experienced Front-End Developer with over 10 years in software development, specializing in building dynamic web applications using React.js, NextJS, ExpressJs, Gatsby.js, and JavaScript/TypeScript. Proficient in both front-end and back-end technologies, including Angular, Vue.js, .NET, Node.js, and various databases.",
   summary:
     "I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime. I love motivating others to get into Open-Source!",
   avatarUrl: "/myPicture.jpg",
@@ -65,7 +65,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "Anacle",

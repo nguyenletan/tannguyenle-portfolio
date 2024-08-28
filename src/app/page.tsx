@@ -6,7 +6,6 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -25,7 +24,7 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl pt-4"
+                className="max-w-[600px] md:text-lg pt-4"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
