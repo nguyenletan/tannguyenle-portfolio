@@ -209,7 +209,7 @@ export default function Page() {
               <p
                 className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 <a className="block hover:underline" href={`tel:` + DATA.contact.tel}>Phone: {DATA.contact.tel}</a>
-                <a className="block hover:underline" href={`mailto:` + DATA.contact.email}>Phone: {DATA.contact.email}</a>
+                <a className="block hover:underline" href={`mailto:` + DATA.contact.email}>Email: {DATA.contact.email}</a>
               </p>
             </div>
           </BlurFade>
