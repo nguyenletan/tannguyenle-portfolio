@@ -119,8 +119,8 @@ export const DATA = {
       location: "Melbourne",
       title: "Front-End Developer (Casual Job)",
       logoUrl: "/bound.jpeg",
-      start: "January 2021",
-      end: "September 2022",
+      start: "Jan 2021",
+      end: "Sep 2022",
       description: `
         - Developed and maintained front-end components using React.js, Next.js, and Gatsby.js for client websites. <br/>
         - Ensured that applications were responsive and compatible across various devices and browsers.`,
@@ -136,7 +136,7 @@ export const DATA = {
       location: "Vietnam",
       title: "Senior Front-End Software Engineer",
       logoUrl: "/nashtech.jpeg",
-      start: "December 2009",
+      start: "Dec 2009",
       end: "Jan 2020",
       description: `
         - Developed and maintained front-end applications using AngularJS, React.js, and jQuery. <br/>
@@ -218,7 +218,7 @@ export const DATA = {
     {
       title: "Nandos (Inlight)",
       href: "https://www.nandos.com.au/",
-      dates: "January 2024 - May 2024",
+      dates: "Jan 2024 - May 2024",
       active: true,
       description:
         `Developed the front-end using **React.js** and back-end using **Express.js** for the Nandos website. 
@@ -256,7 +256,7 @@ export const DATA = {
     {
       title: "AHM (Inlight)",
       href: "https://ahm.com.au/health-insurance/join",
-      dates: "May 2023 to December 2023",
+      dates: "May 2023 to Dec 2023",
       active: true,
       description:
         `Built and maintained the UI with **React.js** and the back end with **Express.js**. Integrated the **Civica Ensure** system for data storage and utilized **Next.js** for the marketing website, sourcing content from **Sanity headless CMS**.`,
@@ -281,7 +281,7 @@ export const DATA = {
     {
       title: "Urban Rest website (Inlight)",
       href: "https://www.stayurbanrest.com/",
-      dates: "January 2024 - May 2024",
+      dates: "Jan 2024 - May 2024",
       active: true,
       description:
         "Developed a full stack booking platform using **Next.js**, with **Stripe** for payment processing and **Algolia** for search functionality. Hosted the platform on Vercel and managed content through **DatoCMS**.",
@@ -316,7 +316,7 @@ export const DATA = {
     {
       title: "OES Students portal (Inlight)",
       href: "https://oes-demo.vercel.app/",
-      dates: "September 2022 to December 2022",
+      dates: "Sep 2022 to Dec 2022",
       active: true,
       description:
         "Created a responsive student portal using **React.js** for the front end and **Express.j** for the back end. Deployed the application on **AWS**, ensuring high availability and scalability.",
@@ -346,7 +346,7 @@ export const DATA = {
     {
       title: "A2Milk (Bound)",
       href: "https://a2milk.com.au/",
-      dates: "September 2022 to December 2022",
+      dates: "Sep 2022 to Dec 2022",
       active: true,
       description:
         "Developed a server-side rendered website using **Next.js**, integrating **Algolia** for advanced search. Managed content using **Kontent.ai** Headless CMS.",
@@ -376,7 +376,7 @@ export const DATA = {
     {
       title: "Lastfootprint (German startup – side project)",
       href: "https://www.lastfootprint.com/ ",
-      dates: "September 2020 to December 2022",
+      dates: "Sep 2020 to Dec 2022",
       active: true,
       description:
         `Developed Business Intelligence (BI) software for energy performance visibility using **React.js** with **Recoil** for state management, and **Nest.js** with **Prisma** for the back end. Managed data in a **PostgreSQL** database.
@@ -414,7 +414,7 @@ export const DATA = {
     {
       title: "KidsFirst (Bound)",
       href: "https://www.kidsfirstaustralia.org.au/",
-      dates: "January 2021 to June 2021",
+      dates: "Jan 2021 to Jun 2021",
       active: true,
       description:
         `Rebuilt the KidsFirst website with **Gatsby.js** for improved speed and performance. Leveraged **Gatsby.js**, **Bootstrap**, and **Drupal** (headless Cms) for a modern, user-friendly interface.`,
@@ -444,7 +444,7 @@ export const DATA = {
     {
       title: "Edvisor.io (NashTech)",
       href: "https://www.edvisor.io/",
-      dates: "February 2019 to January 2020",
+      dates: "Feb 2019 to Jan 2020",
       active: true,
       description:
         `Contributed to the Edvisor for Schools platform, focusing on the enrollment feature and fixing legacy UI bugs. Utilized **AngularJS**, **GraphQL**, and **Node.js** for development.`,
@@ -473,7 +473,7 @@ export const DATA = {
     {
       title: "Civica Housing (NashTech)",
       href: "https://www.civica.com/en-au/sector-pages/housing/",
-      dates: "December 2011 to December 2017",
+      dates: "Dec 2011 to Oct 2017",
       active: true,
       description:
         `Developed Civica Housing project using **ASP.NET MVC**, **jQuery**, and **KendoUI**, supporting data management through **MS-SQL**.`,
@@ -505,7 +505,7 @@ export const DATA = {
     {
       title: "Vielife (NashTech)",
       href: "",
-      dates: "May 2007 to December 2010",
+      dates: "May 2007 to Dec 2010",
       active: true,
       description:
         `Worked on a wellness platform focusing on sleep, stress management, nutrition, and physical activity. Collaborated with cross-functional teams to develop, deploy, and troubleshoot various legacy bugs using **ASP.NET MVC**, and **jQuery**.`,
