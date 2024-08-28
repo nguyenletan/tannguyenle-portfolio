@@ -186,49 +186,57 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Anacle Websites",
+      href: "https://www.anacle.com.au/",
+      dates: "May 2024 - Now",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        `Maintained and enhanced Anacle Singapore, Anacle AU, Anacle Partners website and Tesseract product site. 
+        \\
+        \\
+         Converted the Simplicity website from **WordPress** to **Next.js**, improving load times and overall performance`,
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Wordpress",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Jquery",
+        "Bootstrap",
+        "Sanity Headless CMS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://www.anacle.com.au/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/anacle-proj.webp",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Nandos (Inlight)",
+      href: "https://www.nandos.com.au/",
+      dates: "January 2024 - May 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        `Developed the front-end using **React.js** and back-end using **Express.js** for the Nandos website. 
+        \\
+        \\
+         Contributed to the Nandos mobile app development with **React Native** and deployed the solution on **AWS**.`,
       technologies: [
         "Next.js",
         "Typescript",
+        "ReactNative",
         "PostgreSQL",
-        "Prisma",
+        "DybamoDB",
+        "AWS",
+        "GraphQL",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Adyen",
+        "NodeJs",
+        "Reddit",
       ],
       links: [
         {
@@ -236,76 +244,284 @@ export const DATA = {
           href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/magicuidesign/magicui",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/nandos-prj.webp",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "AHM (Inlight)",
+      href: "https://ahm.com.au/health-insurance/join",
+      dates: "May 2023 to December 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        `Built and maintained the UI with **React.js** and the back end with **Express.js**. Integrated the **Civica Ensure** system for data storage and utilized **Next.js** for the marketing website, sourcing content from **Sanity headless CMS**.`,
       technologies: [
         "Next.js",
+        "ReactJs",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "NodeJs",
+        "ExpressJs",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://ahm.com.au/health-insurance/join",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/ahm-prj.webp",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Urban Rest website (Inlight)",
+      href: "https://www.stayurbanrest.com/",
+      dates: "January 2024 - May 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a full stack booking platform using **Next.js**, with **Stripe** for payment processing and **Algolia** for search functionality. Hosted the platform on Vercel and managed content through **DatoCMS**.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
+        "AWS",
+        "Reddit",
+        "Apollo/GraphQL",
+        "Vanilla-extract CSS",
+        "Salesforce",
         "Stripe",
-        "Cloudflare Workers",
+        "Booking API",
+        "Algolia",
+        "DatoCMS headless CMS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://www.stayurbanrest.com/",
           icon: <Icons.globe className="size-3" />,
         },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/stayurbanrest-prj.webp",
+      video: "",
+    },
+    {
+      title: "OES Students portal (Inlight)",
+      href: "https://oes-demo.vercel.app/",
+      dates: "September 2022 to December 2022",
+      active: true,
+      description:
+        "Created a responsive student portal using **React.js** for the front end and **Express.j** for the back end. Deployed the application on **AWS**, ensuring high availability and scalability.",
+      technologies: [
+        "Reactjs",
+        "Typescript",
+        "AWS",
+        "Styled Components",
+        "DynamoDB",
+        "ExpressJs"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://oes-demo.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/oes-prj.webp",
+      video: "",
+    },
+    {
+      title: "A2Milk (Bound)",
+      href: "https://a2milk.com.au/",
+      dates: "September 2022 to December 2022",
+      active: true,
+      description:
+        "Developed a server-side rendered website using **Next.js**, integrating **Algolia** for advanced search. Managed content using **Kontent.ai** Headless CMS.",
+      technologies: [
+        "NextJs",
+        "Typescript",
+        "AWS",
+        "Styled Components",
+        "Kontent.ai headless CMS",
+        "Angolia",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://a2milk.com.au/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/a2milk-prj.webp",
+      video: "",
+    },
+    {
+      title: "Lastfootprint (German startup – side project)",
+      href: "https://www.lastfootprint.com/ ",
+      dates: "September 2020 to December 2022",
+      active: true,
+      description:
+        `Developed Business Intelligence (BI) software for energy performance visibility using **React.js** with **Recoil** for state management, and **Nest.js** with **Prisma** for the back end. Managed data in a **PostgreSQL** database.
+          \\
+          \\
+         Developed a marketing website using **Next.js** and **Styled Components**, integrating **Strapi** Headless CMS for content management.`,
+      technologies: [
+        "NextJs",
+        "ReactJs",
+        "Typescript",
+        "Digital Ocean",
+        "Reddit",
+        "Styled Components",
+        "TailwindCSS",
+        "Strapi headless CMS",
+        "Prisma",
+        "PostgreSQL",
+        "Recoil"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.lastfootprint.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/lastfootprint-prj.webp",
+      video: "",
+    },
+    {
+      title: "KidsFirst (Bound)",
+      href: "https://www.kidsfirstaustralia.org.au/",
+      dates: "January 2021 to June 2021",
+      active: true,
+      description:
+        `Rebuilt the KidsFirst website with **Gatsby.js** for improved speed and performance. Leveraged **Gatsby.js**, **Bootstrap**, and **Drupal** (headless Cms) for a modern, user-friendly interface.`,
+      technologies: [
+        "GatsbyJs",
+        "Typescript",
+        "Netlify",
+        "AWS",
+        "Drupal",
+        "BootstrapCss"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.kidsfirstaustralia.org.au/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/kidsfirst-prj.webp",
+      video: "",
+    },
+    {
+      title: "Edvisor.io (NashTech)",
+      href: "https://www.edvisor.io/",
+      dates: "February 2019 to January 2020",
+      active: true,
+      description:
+        `Contributed to the Edvisor for Schools platform, focusing on the enrollment feature and fixing legacy UI bugs. Utilized **AngularJS**, **GraphQL**, and **Node.js** for development.`,
+      technologies: [
+        "AngularJs",
+        "Javascript",
+        "ExpressJs",
+        "GraphQL",
+        "NodeJs"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.edvisor.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/edvisor-prj.webp",
+      video: "",
+    },
+    {
+      title: "Civica Housing (NashTech)",
+      href: "https://www.civica.com/en-au/sector-pages/housing/",
+      dates: "December 2011 to December 2017",
+      active: true,
+      description:
+        `Developed Civica Housing project using **ASP.NET MVC**, **jQuery**, and **KendoUI**, supporting data management through **MS-SQL**.`,
+      technologies: [
+        "ASP.NET MVC",
+        "C#",
+        "Jquery",
+        "IIS",
+        "KendoUI",
+        "C#",
+        "MS-SQL",
+        ".NET"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.civica.com/en-au/sector-pages/housing/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/civica-prj.webp",
+      video: "",
+    },
+    {
+      title: "Vielife (NashTech)",
+      href: "",
+      dates: "May 2007 to December 2010",
+      active: true,
+      description:
+        `Worked on a wellness platform focusing on sleep, stress management, nutrition, and physical activity. Collaborated with cross-functional teams to develop, deploy, and troubleshoot various legacy bugs using **ASP.NET MVC**, and **jQuery**.`,
+      technologies: [
+        "ASP.NET MVC",
+        "C#",
+        "Jquery",
+        "IIS",
+        "C#",
+        "MS-SQL",
+        ".NET"
+      ],
+      links: [
+      ],
+      image: "/vielife-prj.webp",
+      video: "",
     },
   ],
   hackathons: [
