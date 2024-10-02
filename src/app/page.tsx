@@ -69,6 +69,7 @@ export default function Page() {
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
                 contributions={work.contributions}
+                location={work.location}
               />
             </BlurFade>
           ))}

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { Roboto_Mono as FontMono } from "next/font/google";
 import { GeistMono } from 'geist/font/mono';
+import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
 
 const fontSans = FontSans({
