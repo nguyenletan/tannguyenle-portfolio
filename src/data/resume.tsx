@@ -5,12 +5,12 @@ export const DATA = {
   name: "Tan Nguyen Le",
   initials: "",
   url: "https://tannguyenle-portfolio.vercel.app/",
-  location: "Melbourne, VIC, AU",
+  location: "Hamilton, New Zealand",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Experienced Front-End Developer with over 10 years in software development, specializing in building dynamic web applications using React.js, NextJS, ExpressJs, Gatsby.js, and JavaScript/TypeScript. Proficient in both front-end and back-end technologies, including Angular, Vue.js, .NET, Node.js, and various databases.",
+    "Highly experienced Front-End and Full-Stack Developer (10+ years) specializing in building dynamic and scalable web applications with React.js, Next.js, Node.js, Express.js, and TypeScript. Proficient in other front-end and back-end technologies, including Angular, Vue.js, and .NET. Passionate about creating performant and user-friendly web experiences.",
   summary:
-    "I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime. I love motivating others to get into Open-Source!",
+    "I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime.",
   avatarUrl: "/myPicture.jpg",
   skills: [
     "React",
@@ -40,7 +40,7 @@ export const DATA = {
   ],
   contact: {
     email: "nguyenletan@gmail.com",
-    tel: "0467580942",
+    tel: "0273658522",
     social: {
       GitHub: {
         name: "GitHub",
