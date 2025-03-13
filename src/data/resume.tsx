@@ -36,7 +36,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/tannguyenle.pdf", icon: FileText, label: "Resume" },
+    { href: "/tannguyenlepdf", icon: FileText, label: "Resume" },
   ],
   contact: {
     email: "nguyenletan@gmail.com",
