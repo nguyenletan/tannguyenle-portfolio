@@ -67,8 +67,8 @@ export const DATA = {
   },
   work: [
     {
-      company: "Anacle Simplicity",
-      href: "https://anaclesimplicity.com/",
+      company: "Anacle",
+      href: "https://anacle.com/",
       badges: [],
       location: "Remote, Singapore",
       title: "Full Stack Node.js Developer",
@@ -173,8 +173,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Anacle Websites",
-      href: "https://www.anacle.com.au/",
+      title: "Anacle Simplicity Websites",
+      href: "https://www.anaclesimplicity.com/",
       dates: "May 2024 - Now",
       active: true,
       description:
