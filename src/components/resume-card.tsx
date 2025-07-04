@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import Markdown from "react-markdown";
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -104,7 +105,9 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               <h4 className="font-semibold">Description: </h4>
-              <p dangerouslySetInnerHTML={{__html: description}}></p>
+              <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+                {description}
+              </Markdown>
             </motion.div>
           )}
           {(contributions && contributions !== '') && (
@@ -121,7 +124,9 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               <h4 className="font-semibold">Key contributions: </h4>
-              <p dangerouslySetInnerHTML={{__html: contributions}}></p>
+              <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+                {contributions}
+              </Markdown>
             </motion.div>
           )}
         </div>
