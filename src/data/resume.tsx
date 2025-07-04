@@ -67,8 +67,8 @@ export const DATA = {
   },
   work: [
     {
-      company: "Anacle",
-      href: "https://anacle.com/",
+      company: "Anacle Simplicity",
+      href: "https://anaclesimplicity.com/",
       badges: [],
       location: "Remote, Singapore",
       title: "Full Stack Node.js Developer",
