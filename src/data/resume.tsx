@@ -390,7 +390,7 @@ export const DATA = {
     },
     {
       title: "Lastfootprint (German startup – side project)",
-      href: "https://www.lastfootprint.com/ ",
+      href: "https://marketing.centasa.com/ ",
       dates: "Sep 2020 to Dec 2022",
       active: true,
       description:
