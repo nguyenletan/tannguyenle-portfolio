@@ -5,7 +5,7 @@ export const DATA = {
   name: "Tan Nguyen Le",
   initials: "",
   url: "https://tannguyenle-portfolio.vercel.app/",
-  location: "Hamilton, New Zealand",
+  location: "Aukland, New Zealand",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Highly experienced Front-End and Full-Stack Developer (10+ years) specializing in building dynamic and scalable web applications with React.js, Next.js, Gatsbyjs, Node.js, Express.js, and TypeScript. Proficient in other front-end and back-end technologies, including Angular, Vue.js, and .NET. Passionate about creating performant and user-friendly web experiences.",
