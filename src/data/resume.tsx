@@ -300,34 +300,34 @@ export const DATA = {
       image: "/stayurbanrest-prj.webp",
       video: "",
     },
-    {
-      title: "My Portfolio website",
-      href: "https://tannguyenle-portfolio.vercel.app/",
-      dates: "Jan 2024 - Jan 2024",
-      active: true,
-      description:
-        "Created a personal portfolio website using **NextJs**, and **Tailwindcss**, showcasing my skills and projects in web development.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Vercel",
-        "TailwindCss",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://tannguyenle-portfolio.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/dillionverma/llm.report",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "/tannguyenle-prj.webp",
-      video: "",
-    },
+    // {
+    //   title: "My Portfolio website",
+    //   href: "https://tannguyenle-portfolio.vercel.app/",
+    //   dates: "Jan 2024 - Jan 2024",
+    //   active: true,
+    //   description:
+    //     "Created a personal portfolio website using **NextJs**, and **Tailwindcss**, showcasing my skills and projects in web development.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "Vercel",
+    //     "TailwindCss",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://tannguyenle-portfolio.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     // {
+    //     //   type: "Source",
+    //     //   href: "https://github.com/dillionverma/llm.report",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "/tannguyenle-prj.webp",
+    //   video: "",
+    // },
     {
       title: "OES Students portal (Inlight)",
       href: "https://oes-demo.vercel.app/",
@@ -390,7 +390,7 @@ export const DATA = {
     },
     {
       title: "Lastfootprint (German startup – side project)",
-      href: "https://marketing.centasa.com/ ",
+      href: "https://marketing.centasa.com/",
       dates: "Sep 2020 to Dec 2022",
       active: true,
       description:
@@ -414,7 +414,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.lastfootprint.com/",
+          href: "https://marketing.centasa.com/",
           icon: <Icons.globe className="size-3" />,
         },
         // {
