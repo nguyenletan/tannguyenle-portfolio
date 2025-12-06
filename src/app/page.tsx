@@ -24,7 +24,7 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-lg pt-4"
+                className="max-w-[600px] md:text-md pt-4"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
@@ -43,7 +43,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+          <Markdown>
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -51,7 +51,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Professional Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade

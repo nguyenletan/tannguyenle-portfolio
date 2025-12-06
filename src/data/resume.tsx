@@ -32,6 +32,8 @@ export const DATA = {
     "Jquery",
     "Styled Components",
     "C#",
+    ".NET",
+    "Vuejs"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -76,10 +78,10 @@ export const DATA = {
       start: "May 2024",
       end: "Now",
       contributions: `
-        - Successfully converted the Simplicity website to Next.js and Sanity Headless CMS.
+        - Successfully converted the Simplicity website to Next.js and Sanity Headless CMS. <br/>
         - Collaborated with cross-functional teams to maintain the Anacle Partner Website and Tesseract product site, ensuring seamless functionality and user experience.`,
       description: `
-        - Developing and maintaining full-stack applications using Node.js, React.js, and PostgreSQL.
+        - Developing and maintaining full-stack applications using Node.js, React.js, and PostgreSQL. <br/>
         - Leading the migration of legacy systems to modern web frameworks, enhancing performance and scalability.`,
     },
     {
@@ -92,11 +94,11 @@ export const DATA = {
       start: "Sep 2022",
       end: "May 2024",
       contributions: `
-       - Developed both front-end and back-end components for projects like Nandos and AHM, integrating with systems like Civica Ensure and Sanity CMS.
+       - Developed both front-end and back-end components for projects like Nandos and AHM, integrating with systems like Civica Ensure and Sanity CMS. <br/>
        - Built Urban Rest's website using Next.js and integrating Stripe for payments
       `,
       description: `
-        - Developed both front-end and back-end components for projects like Nandos and AHM, integrating with systems like Civica Ensure and Sanity CMS.
+        - Developed both front-end and back-end components for projects like Nandos and AHM, integrating with systems like Civica Ensure and Sanity CMS. <br/>
         - Built Urban Rest's website using Next.js and integrating Stripe for payments.`,
     },
     {
@@ -109,10 +111,10 @@ export const DATA = {
       start: "Jan 2021",
       end: "Sep 2022",
       description: `
-        - Developed and maintained front-end components using React.js, Next.js, and Gatsby.js for client websites.
+        - Developed and maintained front-end components using React.js, Next.js, and Gatsby.js for client websites. <br/>
         - Ensured that applications were responsive and compatible across various devices and browsers.`,
       contributions: `
-        - Worked on the A2Milk website, implementing server-side rendering with Next.js and optimizing search functionality with Algolia.
+        - Worked on the A2Milk website, implementing server-side rendering with Next.js and optimizing search functionality with Algolia. <br/>
         - Contributed to the redesign of KidsFirst's website using Gatsby.js, improving site speed and overall user experience.
       `
     },
@@ -126,10 +128,10 @@ export const DATA = {
       start: "Dec 2009",
       end: "Jan 2020",
       description: `
-        - Developed and maintained front-end applications using AngularJS, React.js, and jQuery.
+        - Developed and maintained front-end applications using AngularJS, React.js, and jQuery.<br/>
         - Collaborated with design teams to implement user-friendly interfaces.`,
       contributions: `
-      - Helped modernize legacy applications by transitioning from AngularJS to React.js, simplifying the codebase and improving performance.
+      - Helped modernize legacy applications by transitioning from AngularJS to React.js, simplifying the codebase and improving performance.<br/>
       - Assisted in mentoring junior developers, contributing to a collaborative team environment.`
     },
     {
@@ -142,7 +144,7 @@ export const DATA = {
       start: "2007",
       end: "2009",
       description:`
-        - Developed web applications using ASP.NET MVC, C#, and jQuery.
+        - Developed web applications using ASP.NET MVC, C#, and jQuery.<br/>
         - Gathered client requirements and translated them into technical solutions.`,
       contributions: ''
     },
@@ -156,7 +158,7 @@ export const DATA = {
       start: "2006",
       end: "2007",
       description:` 
-        - Developed web applications using ASP.NET and MS SQL, focusing on performance and scalability.
+        - Developed web applications using ASP.NET and MS SQL, focusing on performance and scalability.<br/>
         - Assisted in the design and development of user interfaces.`,
       contributions: ''
     },

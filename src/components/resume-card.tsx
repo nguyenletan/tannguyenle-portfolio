@@ -105,9 +105,9 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               <h4 className="font-semibold">Description: </h4>
-              <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
-                {description}
-              </Markdown>
+                <div className="prose max-w-[100%] text-pretty font-sans text-xs dark:prose-invert leading-6 p-1"
+                     dangerouslySetInnerHTML={{__html: description}}>
+                </div>
             </motion.div>
           )}
           {(contributions && contributions !== '') && (
@@ -124,9 +124,9 @@ export const ResumeCard = ({
               className="mt-2 text-xs sm:text-sm"
             >
               <h4 className="font-semibold">Key contributions: </h4>
-              <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
-                {contributions}
-              </Markdown>
+              <div className="prose max-w-[100%] text-pretty font-sans text-xs dark:prose-invert leading-6 p-1"
+                   dangerouslySetInnerHTML={{__html: contributions}}>
+              </div>
             </motion.div>
           )}
         </div>
