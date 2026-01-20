@@ -8,7 +8,7 @@ export const DATA = {
   location: "Aukland, New Zealand",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Highly experienced Front-End and Full-Stack Developer (10+ years) specializing in building dynamic and scalable web applications with React.js, Next.js, Gatsbyjs, Node.js, Express.js, and TypeScript. Proficient in other front-end and back-end technologies, including Angular, Vue.js, and .NET. Passionate about creating performant and user-friendly web experiences.",
+    "Highly experienced Front-End and Full-Stack Developer (10+ years) specializing in building dynamic and scalable web applications with React.js, Next.js, Gatsbyjs, Node.js, .NET, Express.js, and TypeScript. Proficient in other front-end and back-end technologies, including Angular, Vue.js, and .NET. Passionate about creating performant and user-friendly web experiences.",
   summary:
     "Front-End and Full-Stack developer with 10 years of experience building high-performance web and mobile applications across APAC and Australia markets. Specialized in React.js, Next.js, React Native, .NET, TypeScript, and Node.js ecosystems. Proven track record improving site performance by 57% and delivering production-ready solutions for enterprise clients.",
   avatarUrl: "/myPicture.jpg",
@@ -175,7 +175,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Anacle Simplicity Websites",
+      title: "Anacle Simplicity",
       href: "https://www.anaclesimplicity.com/",
       dates: "May 2024 - Now",
       active: true,
