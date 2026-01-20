@@ -183,11 +183,15 @@ export const DATA = {
         `Maintained and enhanced Anacle Singapore, Anacle AU, Anacle Partners website and Tesseract product site. 
         \\
         \\
-         Converted the Simplicity website from **WordPress** to **Next.js**, improving load times and overall performance`,
+         Converted the Simplicity website from **WordPress** to **Next.js**, improving load times and overall performance
+        \\
+        \\
+         Developed and maintained Simplicity applications using .NET, C#, .NET API, and Dapper ORM with PostgreSQL, implementing efficient data access patterns and query optimization.`,
       technologies: [
         "Next.js",
         "Typescript",
         "Wordpress",
+        ".NET",
         "TailwindCSS",
         "Jquery",
         "Bootstrap",
