@@ -25,6 +25,7 @@ export const DATA = {
     "Docker",
     "AWS",
     "Nest.js",
+    "HTMLX",
     "Wordpress",
     "Gatsby",
     "Astro",
@@ -255,6 +256,7 @@ export const DATA = {
         `Built and maintained the UI with **React.js** and the back end with **Express.js**. Integrated the **Civica Ensure** system for data storage and utilized **Next.js** for the marketing website, sourcing content from **Sanity headless CMS**.`,
       technologies: [
         "Next.js",
+        "HTMLX",
         "ReactJs",
         "Typescript",
         "NodeJs",
